@@ -1,37 +1,63 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>David Emukpere</title>
-    <meta
-      name="description"
-      content="David Emukpere — robot learning researcher working on RL/IL for manipulation, robustness, and generalization."
-    />
-    <meta name="google-site-verification" content="DbFYmXHgkvLp9TCwF8zv93UKoNDxPTIgt4EauO1yvk4" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      
+        <title>David Emukpere</title>
+        <meta
+          name="description"
+          content="David Emukpere is a robot learning researcher working on reinforcement learning and imitation learning for robotics, with a focus on robustness, reliability, and generalist robotics policies."
+        />
+        <link rel="canonical" href="https://davidemukpere.github.io/" />
+        <meta name="google-site-verification" content="DbFYmXHgkvLp9TCwF8zv93UKoNDxPTIgt4EauO1yvk4" />
+      
+        <meta property="og:title" content="David Emukpere | Robot Learning Researcher" />
+        <meta
+          property="og:description"
+          content="Robot learning research in reinforcement learning and imitation learning for robotics, with a focus on robustness, reliability, and generalist robotics policies."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://davidemukpere.github.io/" />
+        <meta property="og:image" content="https://davidemukpere.github.io/assets/headshot.jpg" />
+        <meta property="og:image:alt" content="David Emukpere headshot" />
+      
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "David Emukpere",
+            "url": "https://davidemukpere.github.io/",
+            "jobTitle": "Robot Learning Researcher",
+            "sameAs": [
+              "https://scholar.google.com/citations?hl=en&user=irphx-UAAAAJ",
+              "https://www.linkedin.com/in/david-emukpere"
+            ]
+          }
+        </script>
+      
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+          tailwind.config = { darkMode: "class" };
+        </script>
+      
+        <style>
+          html { scroll-behavior: smooth; }
+        </style>
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = { darkMode: "class" };
-    </script>
-
-    <style>
-      html { scroll-behavior: smooth; }
-    </style>
-
-    <script>
-      (function () {
-        const root = document.documentElement;
-        const saved = localStorage.getItem("theme");
-        const prefersDark =
-          window.matchMedia &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-        const shouldBeDark = saved ? saved === "dark" : prefersDark;
-        root.classList.toggle("dark", shouldBeDark);
-      })();
-    </script>
-  </head>
+        <script>
+          (function () {
+            const root = document.documentElement;
+            const saved = localStorage.getItem("theme");
+            const prefersDark =
+              window.matchMedia &&
+              window.matchMedia("(prefers-color-scheme: dark)").matches;
+      
+            const shouldBeDark = saved ? saved === "dark" : prefersDark;
+            root.classList.toggle("dark", shouldBeDark);
+          })();
+        </script>
+      </head>
 
   <body class="bg-zinc-50 text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100 antialiased">
     <!-- NAV -->
