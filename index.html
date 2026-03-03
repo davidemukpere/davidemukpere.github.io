@@ -9,10 +9,10 @@
       content="David Emukpere — robot learning researcher working on RL/IL for manipulation, robustness, and generalization."
     />
 
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = { darkMode: "class" };
     </script>
-    <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
       html { scroll-behavior: smooth; }
@@ -320,8 +320,8 @@
 
         function syncIcons() {
           const isDark = root.classList.contains("dark");
-          if (icon) icon.textContent = isDark ? "☾" : "☀";
-          if (iconM) iconM.textContent = isDark ? "☾" : "☀";
+          if (icon) icon.textContent = isDark ? "☀" : "☾";
+          if (iconM) iconM.textContent = isDark ? "☀" : "☾";
         }
 
         function setTheme(mode) {
